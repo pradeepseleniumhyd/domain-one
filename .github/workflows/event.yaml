@@ -3,7 +3,7 @@ on: push
 jobs:
   show-info:
    runs-on: ubuntu-latest
-    steps:
-     - uses: actions/domain-one@v3
+    steps :
+     - uses: actions/checkout@main
       - name: Info
       run: echo "testing"

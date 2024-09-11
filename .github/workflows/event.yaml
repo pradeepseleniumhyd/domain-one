@@ -4,5 +4,6 @@ jobs:
   show-info:
    runs-on: ubuntu-latest
     steps:
-      -name: Info
+     - uses: actions/domain-one@v3
+      - name: Info
       run: echo "testing"

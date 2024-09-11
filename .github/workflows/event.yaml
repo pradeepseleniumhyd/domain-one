@@ -6,4 +6,4 @@ jobs:
     steps :
      - uses: actions/checkout@main
       - name: Info
-      run: echo "testing"
+      run: echo testing

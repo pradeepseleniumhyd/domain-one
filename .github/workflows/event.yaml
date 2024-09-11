@@ -1,7 +1,6 @@
 name: Push Events
 on: 
-  schedule:
-   - cron: "*/5 * * * *"
+  workflow_dispatch:
 jobs:
   show-info:
    runs-on: ubuntu-latest
